@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cx-systems/static/css/main.5f361e03.chunk.css",
+    "main.js": "/cx-systems/static/js/main.87a09ddb.chunk.js",
+    "main.js.map": "/cx-systems/static/js/main.87a09ddb.chunk.js.map",
+    "runtime-main.js": "/cx-systems/static/js/runtime-main.8e764de8.js",
+    "runtime-main.js.map": "/cx-systems/static/js/runtime-main.8e764de8.js.map",
+    "static/js/2.3669d693.chunk.js": "/cx-systems/static/js/2.3669d693.chunk.js",
+    "static/js/2.3669d693.chunk.js.map": "/cx-systems/static/js/2.3669d693.chunk.js.map",
+    "index.html": "/cx-systems/index.html",
+    "precache-manifest.2bc632b6c3c5dc421ad6fdf3b38d0528.js": "/cx-systems/precache-manifest.2bc632b6c3c5dc421ad6fdf3b38d0528.js",
+    "service-worker.js": "/cx-systems/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/cx-systems/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3669d693.chunk.js.LICENSE.txt": "/cx-systems/static/js/2.3669d693.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/cx-systems/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e764de8.js",
+    "static/js/2.3669d693.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.87a09ddb.chunk.js"
+  ]
+}
