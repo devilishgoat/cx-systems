@@ -1,19 +1,21 @@
 import React from 'react';
-import './App.css';
-import Navigation from './components/navigation'
-import { Route } from 'react-router-dom';
+import { Route, BrowserRouter } from 'react-router-dom';
+import CssBaseline from '@material-ui/core/CssBaseline'
+import Navbar from './components/Navbar'
 import {Routes} from './routes'
 
 function App() {
   return (
-    <div className="app">
-      <header className="app-header">
-        <Navigation />
-      </header>
-      {Routes.map(r => {
-        return <Route exact={r.exact} path={r.path} component={r.component} />
-      })}      
-    </div>
+    <>
+    <CssBaseline/>
+      <BrowserRouter>
+        <Navbar /> 
+        {Routes.map(route => {
+          return <Route {...route}/>
+        })}
+        
+      </BrowserRouter>
+    </>
   );
 }
 

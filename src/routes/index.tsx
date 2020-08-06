@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './home'
 import Tech from './tech'
-import Clients from './clients'
+import Projects from './projects'
 import Contact from './contact'
 type route = {
     path: string;
@@ -21,8 +21,8 @@ export const Routes: route[] = [
         exact: true,
     },
     {
-        path : '/clients', 
-        component: Clients,
+        path : '/projects', 
+        component: Projects,
         exact: true,
     },
     {
