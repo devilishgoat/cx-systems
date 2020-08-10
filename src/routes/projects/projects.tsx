@@ -1,5 +1,6 @@
 import React from 'react'
+import {ProjectList} from '../../components/ProjectList'
 
 export const Projects: React.SFC = () => {
-    return <h1>projects</h1>
+    return <ProjectList />
 }

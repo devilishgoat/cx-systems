@@ -41,14 +41,17 @@ export default function Navbar() {
         <>        
         <Box component='nav'>
             <AppBar position='static' style={{background: '#222'}}>
-                <Toolbar>                    
-                    <img src={avatar} />       
+                <Toolbar>                                        
                     <MenuList>
                         <MenuItem component={Link} to='/about'>
-                            About                            
+                            <Typography variant='h6'>
+                                About                    
+                            </Typography>        
                         </MenuItem>
                         <MenuItem component={Link} to='/projects'>
-                            Projects                          
+                            <Typography variant='h6'>
+                                Projects                 
+                            </Typography>         
                         </MenuItem>
                     </MenuList>
                 </Toolbar>
