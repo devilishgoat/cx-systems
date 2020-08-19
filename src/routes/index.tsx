@@ -7,6 +7,7 @@ type route = {
     path: string;
     component: React.SFC;
     exact?: boolean;
+    name: string;
 }
 
 export const Routes: route[] = [
@@ -14,20 +15,24 @@ export const Routes: route[] = [
         path : '/', 
         component: Home,
         exact: true,
+        name: 'Home',
     },
     {
         path : '/tech', 
         component: Tech,
         exact: true,
+        name: 'Tech',
     },
     {
         path : '/projects', 
         component: Projects,
         exact: true,
+        name: 'Projects',
     },
     {
         path : '/contact', 
         component: Contact,
         exact: true,
+        name: 'Contact',
     },
 ]
